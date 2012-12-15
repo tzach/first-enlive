@@ -1,10 +1,7 @@
 # first-enlive
 
-A Clojure library designed to ... well, that part is up to you.
+a trivial clojure web app, base on compojure, enlive and postgresql
 
-## Usage
-
-FIXME
 
 ## License
 
