@@ -27,7 +27,7 @@
   (GET "/all" [] (ring-res/response (all)))
   (GET "/clear" []
        (do (db/clear)
-           (ring-res/redirect "/shout.html")))
+           (ring-res/redirect "/shout.html"))) 
   (route/not-found "Not Found??"))
 
 (def app
